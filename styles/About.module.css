@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;600;700&family=Space+Grotesk:wght@300;700&display=swap');
+.header{
+    position: absolute;
+font-family: 'Darker Grotesque', sans-serif;    
+margin-top: 8em;
+margin-left: 18em;
+}
+
+.about{
+    color:  #ff951c;
+    position: absolute;
+    margin-top: -0em;
+}
+
+.board{
+    position: absolute;
+    margin-left: 49em;
+    margin-top: 5em;
+}
+.vol{
+    width: 300px;
+    position: absolute;
+    margin-left:50em;
+    margin-top: 6em;
+}
+
+.end{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12px;
+    position: absolute;
+    bottom: 3em;
+    margin-left: 57em
+}
+
+
+/* From uiverse.io by @adamgiebl */
+.button {
+    font-family: inherit;
+    font-size: 20px;
+    background:  #f8b05e;
+    color: white;
+    padding: 0.7em 1em;
+    padding-left: 0.9em;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 16px;
+    overflow: hidden;
+    transition: all 0.2s;
+   }
+   
+   .button .send {
+    display: block;
+    margin-left: 0.3em;
+    transition: all 0.3s ease-in-out;
+   }
+   
+   .button .svg {
+    display: block;
+    transform-origin: center center;
+    transition: transform 0.3s ease-in-out;
+   }
+   
+   .button:hover .svg_wrapper {
+    animation: fly-1 0.6s ease-in-out infinite alternate;
+   }
+   
+   .button:hover .svg {
+    transform: translateX(1.2em) rotate(45deg) scale(1.1);
+   }
+   
+   .button:hover .send {
+    transform: translateX(5em);
+   }
+   
+   .button:active {
+    transform: scale(0.95);
+   }
+   
+   @keyframes fly-1 {
+    from {
+     transform: translateY(0.1em);
+    }
+   
+    to {
+     transform: translateY(-0.1em);
+    }
+   }
+   
+   @media screen and (max-width: 884px){
+       .about{
+           margin-top: -1em;
+           font-size: 28px;
+       }
+       .header{
+           margin-top: 12em;
+         margin-left: 3em;
+         font-size: 12px;
+       }
+       .abtbd{
+           font-size: 13px;
+           font-weight: 500;
+       }
+       .board{
+        position: absolute;
+        margin-left: 12em;
+        margin-top: 23em;
+        width: 200px;
+    }
+    .vol{
+        width: 200px;
+        position: absolute;
+        margin-left:0em;
+        margin-top: 16em;
+    }
+    .end{
+        font-family: 'Space Grotesk', sans-serif;
+        font-size: 10px;
+        bottom: 3;
+        margin-left: 13em;
+    }
+    @media screen and (max-width: 1280px){
+        .about{
+            font-size: 40px;
+        }
+        .abtbd{
+            font-size: 18px;
+            font-weight: 600;
+        }
+        .abthd{
+            font-size: 28px;
+        }
+        .end{
+            font-size: 13px;
+            margin-left: 25em;
+        }
+        .vol{
+            margin-top: 17em;
+            width: 300px;
+        }
+        .board{
+            width: 250px;
+            margin-left: 20em;
+            margin-top: 28em;
+        }
+    }
+   }

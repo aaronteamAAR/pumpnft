@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;600;700&family=Space+Grotesk:wght@300;700&display=swap');@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque&family=Space+Grotesk:wght@300;700&display=swap');@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;700&display=swap');@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPGothic&family=Blinker&family=Fredoka:wght@300;400;500&family=IBM+Plex+Sans&family=Inter&family=Sora:wght@100;200;300;500;600;700;800&display=swap');
+.logo{
+    width: 50px;
+}
+.logoname{
+    margin-top: -3.2em;
+    margin-left: 3em;
+    font-family: 'Blinker', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+.head{
+    margin-top: 2em;
+    font-size: 38px;
+    font-weight: 600;
+    font-family: 'Sora', sans-serif;
+    text-align: center;
+}
+.bold{
+    color: #ff951c;
+}
+.dirline{
+  position: absolute;
+  width: 50px;
+  margin-left: 23em;
+}
+.manimage{
+
+    width: 400px;
+    height: 400px;
+    margin-top: -4em;
+    margin-left: 5em;
+   
+}
+.circleimg{
+  position: absolute;
+  width: 90px;
+  margin-top: 3.1em;
+  margin-left: 35em;
+}
+
+.twitter{
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    top: 0;
+    margin-top: 1em;
+    right: 3em;
+}
+.section{
+  text-align: center;
+  position:absolute;
+  background-color: white;
+    margin-top: 5em;
+    border-radius: 4px;
+    height: 5em;
+    width: 20em;
+    letter-spacing: 1px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+
+
+.section:after {
+  background-color: rgb(255, 251, 251);
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+
+}
+
+.section:hover:after {
+  transform: translate(0, 0);
+}
+
+.section:active {
+  background-color: #ffdeda;
+  outline: 0;
+}
+
+.section:hover {
+  outline: 0;
+}
+.wallet_chart{
+
+  margin-top:18em;
+  margin-bottom: 3em;
+  margin-left: -26em;
+  width: 500px;
+}
+.credit{
+    font-size: 6px; 
+}
+.footer{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  height: 20em;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Sora', sans-serif;
+    text-align: center;
+  color: #000000;
+  font-size: 12px;
+  background: black;
+}
+
+.params{
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Space Grotesk', sans-serif;
+}
+.man{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.bodyhand{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.memoji{
+  position: absolute;
+  margin-top: 2em;
+  margin-left: 66em;
+  width: 90px;
+}
+.body{
+  background-size: cover;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1016%26quot%3b)' fill='none'%3e%3cpath d='M865.29 648.07C971.87 596.24 919.04 254.12 1123.61 250.57 1328.17 247.02 1506.79 383.88 1640.24 384.97' stroke='rgba(6%2c 6%2c 6%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M435.72 600.8C604.8 582.9 713.25 216.43 996.51 216.02 1279.77 215.61 1406.39 435.93 1557.3 440.02' stroke='rgba(6%2c 6%2c 6%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M220.84 638.85C408.53 635.92 558.62 411.95 934.6 405.81 1310.57 399.67 1460.06 168.23 1648.35 165.01' stroke='rgba(6%2c 6%2c 6%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M649.7 650.65C817.82 601.15 861.04 133.79 1113.8 125.27 1366.55 116.75 1457.85 247.43 1577.89 248.47' stroke='rgba(6%2c 6%2c 6%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M224.58 639.39C410.23 627.18 527.85 282.25 873.34 274.79 1218.83 267.33 1357.51 163.2 1522.1 162.79' stroke='rgba(6%2c 6%2c 6%2c 1)' stroke-width='2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1016'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+}
+
+.hands{
+    position: absolute;
+    width: 90px;
+    transform: rotate(-92deg);
+    margin-top: 3em;
+    margin-left: 10em;
+}
+
+
+.button{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 3em;
+}
+.button56 {
+ 
+  margin-left: 1em;
+  align-items: center;
+  background-color:#ff951c;
+  border: 2px solid #111;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  display: flex;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button56:after {
+  background-color: #111;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+}
+
+.button56:hover:after {
+  transform: translate(0, 0);
+}
+
+.button56:active {
+  background-color: #ffdeda;
+  outline: 0;
+}
+
+.button56:hover {
+  outline: 0;
+}
+
+@media (max-width: 768px) {
+  .button-56 {
+    padding: 0 40px;
+  }
+  .memoji{
+    position: absolute;
+    width: 50px;
+    margin-top: -2em;
+    margin-left: 23em;
+  }
+  .circleimg{
+    position: absolute;
+    width: 90px;
+    margin-top: 3.1em;
+    margin-left: 3.8em;
+  }
+  .manimage{
+    margin-left: 0em;
+  }
+
+  .wallet_chart{
+
+    margin-top:18em;
+    margin-bottom: 3em;
+    margin-left: -26em;
+    width: 300px;
+    height: 150px;
+  }
+
+  .dirline{
+    position: absolute;
+    width: 60px;
+    height: 40px;
+    margin-left: 8em;
+    transform: rotate(-120deg);
+  }
+  .button56{
+    margin-left:1em ;
+  }
+  
+  
+}
