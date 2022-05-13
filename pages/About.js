@@ -1,17 +1,18 @@
 import React from 'react'
+import Image from 'next/image'
 import styles from '../styles/About.module.css'
 
 const About = () => {
   return (
     <div>
         
-        <img className={styles.board} src='board.png' />
+        <Image  className={styles.board} src='board.png' />
         <div className={styles.header}>
          <h4 className={styles.about}>About Us</h4>
             <h1  className={styles.abthd}>We are the best NFT promoters<br /> in town</h1>
              <p className={styles.abtbd}>We help you get your NFT project attention thereby increasing<br />
             it's chance of success in the marketplace, we have helped a few number<br />
-            <img className={styles.vol} src='vol.png' />
+            <Image  className={styles.vol} src='vol.png' />
             of NFT projects get a place on the market using our highly interactive<br />
             promotion tatics</p>
             <button className={styles.button}>
