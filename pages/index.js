@@ -5,9 +5,11 @@ import Link from 'next/link'
 import Typed from "typed.js";
 import { useEffect, useRef } from "react";
 
+import React from 'react'
 
 
-export default function Index(){
+
+export const index = () => {
 
 const el = useRef(null);
   useEffect(() => {
