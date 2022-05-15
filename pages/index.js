@@ -1,10 +1,9 @@
-import Header from '../compos/Header'
+
 import styles from '../styles/Index.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
 import Typed from "typed.js";
 import { useEffect, useRef } from "react";
-
 import React from 'react'
 
 
