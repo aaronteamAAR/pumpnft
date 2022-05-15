@@ -17,7 +17,7 @@ export default function Home() {
       <div className={styles.text_sub}>Get your promotion at ease...<br/>Secure, transparent,fast and reliable.</div>
     <div className={styles.maincontainer}>
         <div className={styles.heading}>
-        <Image className={styles.mon08}  width="50" height="50"  layout= 'raw'src='/fly.png' />
+        <Image className={styles.mon08}  width="50" height="50"  layout= 'raw' src='/fly.png' />
 <Image className={styles.atom}  width="18"
       height="0" layout='raw' src='/atom.png' /> 
           <h1 className={styles.headingtitle}></h1>
