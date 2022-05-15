@@ -9,7 +9,7 @@ import React from 'react'
 
 
 
-export const index = () => {
+export default function index(){
 
 const el = useRef(null);
   useEffect(() => {
