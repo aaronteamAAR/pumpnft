@@ -7,7 +7,7 @@ import { useEffect, useRef } from "react";
 
 
 
-export default function(){
+export default function index(){
 
 const el = useRef(null);
   useEffect(() => {
