@@ -9,7 +9,7 @@ import React from 'react'
 
 
 
-export default function index(){
+const Index = () => {
 
 const el = useRef(null);
   useEffect(() => {
@@ -64,3 +64,4 @@ const el = useRef(null);
     </div>
   )
 }
+export default Index;
