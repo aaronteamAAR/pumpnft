@@ -218,7 +218,8 @@
   }
   .memoji{
     position: absolute;
-    width: 50px;
+    width: 80px;
+    height: 80px;
     margin-top: -2em;
     margin-left: 23em;
   }
