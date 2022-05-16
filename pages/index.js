@@ -47,10 +47,9 @@ const el = useRef(null);
       </div>
     <div className={styles.head}>The Power of NFT  <b className={styles.bold}> <br />  <span ref={el}></span></b></div>
     <Image className={styles.memoji} width="90" height="90" layout='raw' src='/woman.png' /> 
-      <Image className={styles.circleimg} width="50" height="50" src='/circle.png' />
        <div className={styles.button}>
-       <button className={styles.button56} role="button"><Link href='/Home'>Get started🚀</Link></button>
-       <Image  className={styles.dirline} width="50" height="30" layout='raw' src='/dirline.png' />
+       <button className={styles.button56} role="button"><Link href='/Home' className={styles.link}>Get started🚀</Link></button>
+       <Image  className={styles.dirline} width="80" height="30" layout='raw' src='/dirline.png' />
        </div>
        <div className={styles.man}>
        <Image  className={styles.manimage} width="400" height="400" layout='raw' src='/name.png'></Image >

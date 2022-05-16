@@ -1,10 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  experimental: { images: 
-    { layoutRaw: true } 
-  }
-  
 }
 
 
@@ -15,5 +11,10 @@ module.exports = {
     // your project has type errors.
     // !! WARN !!
     ignoreBuildErrors: true,
+  },
+  experimental: {
+    images: {
+      layoutRaw: true,
+    },
   },
 }

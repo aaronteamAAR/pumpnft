@@ -10,16 +10,16 @@ export default function Home() {
        <Header />
       <div className={styles.cover}>
       <div className={styles.texts_head}>Boost Your NFT🚀.<br/>Increase your chance of success!</div>
-      <Image className={styles.moncon} src='/03.png'  width="50"
-      height="40"  layout='raw'  />
-      <Image className={styles.robocorp} width="50"
-      height="50" layout='raw'  src='/robocorp.png' />
+      <Image className={styles.moncon} src='/03.png'  width="80"
+      height="90"  layout='raw'  />
+      <Image className={styles.robocorp} width="80"
+      height="30" layout='raw'  src='/robocorp.png' />
       <div className={styles.text_sub}>Get your promotion at ease...<br/>Secure, transparent,fast and reliable.</div>
     <div className={styles.maincontainer}>
         <div className={styles.heading}>
         <Image className={styles.mon08}  width="50" height="50"  layout= 'raw' src='/fly.png' />
-<Image className={styles.atom}  width="18"
-      height="0" layout='raw' src='/atom.png' /> 
+<Image className={styles.atom}  width="300"
+      height="300" layout='raw' src='/atom.png' /> 
           <h1 className={styles.headingtitle}></h1>
           <p className={styles.headingcredits}></p>
         </div>
