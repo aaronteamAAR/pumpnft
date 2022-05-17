@@ -14,7 +14,11 @@ margin-left: 18em;
 .back{
     cursor: help;
     background-color: #f8b05e;
+    margin-top: 0.3em;
     max-width: 3em;
+    font-family:  'Darker Grotesque', sans-serif;  
+    border-radius: 3px;
+    text-align: center;
 }
 
 .board{
