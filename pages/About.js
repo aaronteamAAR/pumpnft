@@ -1,11 +1,14 @@
 import React from 'react'
 import Image from 'next/image'
 import styles from '../styles/About.module.css'
+import Link from 'next/link'
+import Router from 'next/router'
 
 const About = () => {
+  
   return (
     <div>
-        
+         <div className={styles.back} onClick={() => Router.back()}>Back</div>
         <Image  className={styles.board} width="250px" height="150px" layout='raw' src='/board.png' />
         <div className={styles.header}>
          <h4 className={styles.about}>About Us</h4>
@@ -15,7 +18,9 @@ const About = () => {
             <Image  className={styles.vol} width="250px" height="150px" layout='raw' src='/vol.png' />
             of NFT projects get a place on the market using our highly interactive<br />
             promotion tatics</p>
+            <Link href='mailto:davetrade164@gmail.com'>
             <button className={styles.button}>
+         
   <div className={styles.svg_wrapper_1}>
     <div className={styles.svgwrapper}>
       <svg className={styles.svg} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
@@ -25,7 +30,9 @@ const About = () => {
     </div>
   </div>
   <span className={styles.send}>Email Us</span>
+
 </button>
+</Link>
             </div>
          <div className={styles.end}>
              Made with ❤️ by zilam.inc

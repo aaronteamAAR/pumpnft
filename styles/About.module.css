@@ -11,6 +11,11 @@ margin-left: 18em;
     position: absolute;
     margin-top: -0em;
 }
+.back{
+    cursor: help;
+    background-color: #f8b05e;
+    max-width: 3em;
+}
 
 .board{
     position: absolute;
@@ -98,8 +103,8 @@ margin-left: 18em;
          font-size: 12px;
        }
        .abtbd{
-           font-size: 12px;
-           font-weight: 500;
+           font-size: 7px;
+           font-weight: 300;
        }
        .board{
         position: absolute;

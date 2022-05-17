@@ -117,7 +117,7 @@ export default function Home() {
       <Image className={styles.sixline} width="200"
       height="200" layout='raw'  src='/sixline.png' />
       </div>
-      <footer className={styles.footer}><section className={styles.foo}>NFT Pump©<br />Made by <b className={styles.bd}>Pump promoters</b></section></footer>
+      <footer className={styles.footer}><section className={styles.foo}>Pump NFT©<br />Made by <b className={styles.bd}>Pump Promoters</b></section></footer>
     </div>
   )
 }
